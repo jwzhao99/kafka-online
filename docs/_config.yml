@@ -20,8 +20,7 @@ u# Welcome to Jekyll!
 
 title: Franz Kafka Online
 email: "jwzhao@seas.upenn.edu"
-description: >- # this means to ignore newlines until "baseurl:"
- An online archive for the life and works of Franz Kafka
+description: An online archive for the life and works of Franz Kafka
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jwzhao99.github.io/kafka-online/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
