@@ -25,6 +25,11 @@ description: An online archive for the life and works of Franz Kafka
           <h1 id="project_title">Franz Kafka Online</h1>
           <h2 id="project_tagline">An online archive for the life and works of Franz Kafka</h2>
           <hr>
+          <nav>
+           <a href={{ "/about/" | relative_url }}>About</a>
+           <a href={{ "/timeline/" | relative_url }}>Timeline</a>
+          </nav>
+          <hr>
           
           {% if site.show_downloads %}
             <section id="downloads">
@@ -34,11 +39,6 @@ description: An online archive for the life and works of Franz Kafka
           {% endif %}
         </header>
     </div>
-
-    <nav>
-       <a href={{ "/about/" | relative_url }}>About</a>
-       <a href={{ "/timeline/" | relative_url }}>Timeline</a>
-    </nav>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
